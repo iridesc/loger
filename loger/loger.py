@@ -39,7 +39,7 @@ def makelog(log: str, level: int = 3):
     if level <= LogerLevel:
         if LogerTimeMark:
             log = time.strftime("%Y-%m-%d %H:%M:%S",
-                                time.localtime()) + '>>>' + log
+                                time.localtime()) + '>' + log
         
 
         if LogerOutputFile != None:

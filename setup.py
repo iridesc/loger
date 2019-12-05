@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="loger",
-    version="0.1",
+    version="0.2",
     author="Irid Zhang",
     author_email="irid.zzy@gmail.com",
     description="loger can easily control your log printing and sveing ",
