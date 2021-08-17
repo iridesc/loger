@@ -1,20 +1,19 @@
-import setuptools
+from setuptools import setup, find_packages
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
-setuptools.setup(
+setup(
     name="loger",
-    version="0.3",
+    version="1.0",
+    packages=find_packages(),
+    include_package_data=True,
+    entry_points={
+    },
+    install_requires=[],
+    url="https://github.com/iridesc/loger",
     author="Irid Zhang",
     author_email="irid.zzy@gmail.com",
-    description="loger can easily control your log printing and sveing ",
-    long_description=long_description,
+    description="loger can control your log printing and sveing easily",
+    long_description="loger can your log printing and sveing easily",
     long_description_content_type="text/markdown",
-    url="https://github.com/iridesc/loger",
-    packages=setuptools.find_packages(),
-    install_requires=[],
-    entry_points={},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

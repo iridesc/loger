@@ -9,7 +9,7 @@
 
 import time
 
-SHOELEVEL = 4
+SHOWLEVEL = 4
 TIMEMARK = False
 COLOR = True
 FILEPATH = ""
@@ -32,15 +32,15 @@ levelTag = {
 
 def loger_setting(show_level: int = 4, time_mark: bool = False, color: bool = True, file_path: str = ""):
 
-    global SHOELEVEL,TIMEMARK,COLOR,FILEPATH
+    global SHOWLEVEL,TIMEMARK,COLOR,FILEPATH
 
-    SHOELEVEL = show_level
+    SHOWLEVEL = show_level
     TIMEMARK = time_mark
     COLOR = color
     FILEPATH = file_path
 
 def log(log: str, level: int = 3):
-    if level <= SHOELEVEL:
+    if level <= SHOWLEVEL:
         if TIMEMARK:
             log = time.strftime("%Y-%m-%d %H:%M:%S",
                                 time.localtime()) + '>' + log

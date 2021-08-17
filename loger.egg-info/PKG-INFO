@@ -1,25 +1,13 @@
-Metadata-Version: 2.1
+Metadata-Version: 1.1
 Name: loger
-Version: 0.3
-Summary: loger can easily control your log printing and sveing 
+Version: 1.0
+Summary: loger can control your log printing and sveing easily
 Home-page: https://github.com/iridesc/loger
 Author: Irid Zhang
 Author-email: irid.zzy@gmail.com
 License: UNKNOWN
-Description: # loger
-        loger 可以轻松控制你的log打印和输出
-        loger can easily control your log printing and sveing 
-        ##  安装 install 
-        
-        ```
-        pip install loger
-        ```
-        ## 使用
-        
-        下载并运行./test.py 其中包含了loger的日常用法
-        
+Description: loger can your log printing and sveing easily
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Description-Content-Type: text/markdown
